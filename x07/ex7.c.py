@@ -44,8 +44,8 @@ def main(argc: int, argv: tuple[str]) -> int:
             part_of_universe)
 
 
-    nul_byte:char = char('\0')
     care_percentage: int = bugs * nul_byte
     printf("Which means you should care %d%%.\n",
             care_percentage)
+
     return 0
